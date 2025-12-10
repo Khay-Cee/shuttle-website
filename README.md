@@ -235,4 +235,4 @@ npm run build
 
 ---
 
-Happy coding! 🚀 For more information, visit our website or contact us through the contact form.
+Happy coding! 🚀 For more information, .

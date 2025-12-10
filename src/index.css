@@ -201,7 +201,7 @@ h1, h2, h3, h4, h5, h6 {
     margin: 0 auto;
 }
 .hero-home {
-    height: 80vh; 
+    height: 100vh; 
     /* Use a high-quality background image path */
     background-image: url('/page1-1.jpg'); 
     background-size: cover;
@@ -530,7 +530,7 @@ h1, h2, h3, h4, h5, h6 {
 /* --- HERO ABOUT STYLES --- */
 .hero-about {
     position: relative;
-    height: 70vh; 
+    height: 100vh; 
     background-image: url('/page2-1.jpg'); 
     background-size: cover;
     background-position: center;
@@ -786,7 +786,7 @@ h1, h2, h3, h4, h5, h6 {
 /* --- HERO CONTACT STYLES --- */
 .hero-contact {
     position: relative;
-    height: 50vh; 
+    height: 100vh; 
     display: flex;
     align-items: center;
     justify-content: center;
@@ -802,7 +802,7 @@ h1, h2, h3, h4, h5, h6 {
 /* A. Outer Container Setup */
 .hero-contact-video-container {
     position: relative; /* CRITICAL: Allows absolute positioning of the video child */
-    height: 50vh; /* Define the section's height */
+    height: 100vh; /* Define the section's height */
     overflow: hidden; /* Clips the edges of the scaled video */
     background-color: #000; /* Fallback color for dark video theme */
     
@@ -1023,6 +1023,7 @@ h1, h2, h3, h4, h5, h6 {
     text-align: center;
     background-color: var(--color-white); /* Light background */
     color: var(--color-dark-bg);
+    height: 100vh;
 }
 
 .hero-demo h1 {
